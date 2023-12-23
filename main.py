@@ -91,4 +91,4 @@ hide_stremlit_styles = """
 """
 st.markdown(hide_stremlit_styles,unsafe_allow_html=True)
 
-st.text('By @suraj_nate')
+st.markdown('<hr><center><a href="https://www.instagram.com/suraj_nate/" target="_blank" style="color:white;text-decoration:none">@suraj_nate</a></center>', unsafe_allow_html=True)
