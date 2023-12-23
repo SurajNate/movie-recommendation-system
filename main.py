@@ -84,8 +84,9 @@ if st.button('Recommned'):
 
 hide_stremlit_styles = """
     <style>
-    header{visibility:hindden}
-    footer{visibility:hindden}
+    #MainMenu{visibility:hidden;}
+    header{visibility:hidden;}
+    footer{visibility:hidden;}
     </style>
 """
 st.markdown(hide_stremlit_styles,unsafe_allow_html=True)
