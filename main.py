@@ -33,6 +33,7 @@ movies = pd.DataFrame(movies_dict)
 
 st.title('Movie Recommender System')
 
+
 seleccted_movie_name = st.selectbox(
     'Enter The movie That You Watched and want recommendations on : ',
     movies['title'].values)
@@ -79,3 +80,14 @@ if st.button('Recommned'):
         with col5:
             st.text(names[9])
             st.image(posters[9])
+
+
+hide_stremlit_styles = """
+    <style>
+    header{visibility:hindden}
+    footer{visibility:hindden}
+    </style>
+"""
+st.markdown(hide_stremlit_styles,unsafe_allow_html=True)
+
+st.text('By @suraj_nate')
