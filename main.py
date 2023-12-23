@@ -35,7 +35,7 @@ st.title('Movie Recommender System')
 
 
 seleccted_movie_name = st.selectbox(
-    'Enter The movie That You Watched and want recommendations on : ',
+    'Select the movie name That You Watched and want similar Recommendations on : ',
     movies['title'].values)
 
 if st.button('Recommned'):
